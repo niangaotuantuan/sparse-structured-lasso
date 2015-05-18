@@ -8,7 +8,7 @@
 
 #include <iostream>
 #include "mpi.h"
-#include "Grid.h"
+#include "Grid.h" //graph generation
 #include "Definition.h"
 
 using namespace std;
