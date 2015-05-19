@@ -135,6 +135,7 @@ class Grid: public GraphBase {
       return numProcs;
     }
     ~Grid();
+  
   private:
     void DisplayMuArr();
     void PartitionByEdge(std::string fname);
@@ -142,4 +143,4 @@ class Grid: public GraphBase {
     friend std::ostream& operator<<(std::ostream& strm, const Grid &g);
 };
 
-#endif /* GRAPHGENERATOR_H_ */
+#endif /* GRID_H_ */
