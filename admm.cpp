@@ -8,8 +8,8 @@
 
 #include <iostream>
 #include "mpi.h"
-#include "Grid.h" //graph generation
-#include "Definition.h"
+#include "Grid.h" //graph generation 
+#include "Definition.h" // define GENERATE
 
 using namespace std;
 
