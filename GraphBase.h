@@ -2,13 +2,14 @@
  * BBox.cpp
  *
  *  Created on: May. 02nd, 2015
- *  Last modified on: May. 20th, 2015
+ *  Last modified on: May. 19th, 2015
  *      Author: Yanran Li
  */
 
 #ifndef GRAPHBASE_H_
 #define GRAPHBASE_H_
 #include <iostream>
+
 class GraphBase {
   protected:
     int numVertPotentials;
