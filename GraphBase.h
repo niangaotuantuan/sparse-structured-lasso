@@ -2,7 +2,7 @@
  * GraphBase.h
  *
  *  Created on: May. 02nd, 2015
- *  Last modified on: May. 19th, 2015
+ *  Last modified on: May. 21st, 2015
  *      Author: Yanran Li
  */
 
@@ -20,7 +20,7 @@ class GraphBase {
     GraphBase():vertPotentials(NULL), edgePotentials(NULL), numVertPotentials(0), numEdgePotentials(0){}
     GraphBase(int verticePotentialSize, int edgePotentialSize);
     virtual ~GraphBase();
-    virtual void Generate();
+    virtual void Generate(); // associate with Grid.cpp
     virtual void Save(const std::string fname);
     virtual void LoadByRow(const std::string fname);
 };
