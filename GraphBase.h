@@ -1,5 +1,5 @@
 /*
- * BBox.cpp
+ * GraphBase.h
  *
  *  Created on: May. 02nd, 2015
  *  Last modified on: May. 19th, 2015
