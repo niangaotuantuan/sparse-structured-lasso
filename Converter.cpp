@@ -1,6 +1,13 @@
+/*
+ * GraphBase.h
+ *
+ *  Created on: May. 10th, 2015
+ *  Last modified on: May. 22nd, 2015
+ *      Author: Yanran Li
+ */
 
 #include <iostream>
-#include "Grid.h"
+#include "Grid.h" // graph generation
 #include "Definition.h"
 #include "mpi.h"
 
@@ -14,10 +21,11 @@ int main(int argc, char* argv[])
     cerr << "./converter <infile> <outfile>\n";
     MPI_Abort(MPI_COMM_WORLD, -1);
   }
+
   string fnameIn(argv[1]);
   string fnameOut(argv[2]);
 
-  Grid grid;
+  Grid grid; // graph
   if (grid.GetRank() == 0)
     grid.Convert(fnameIn);
   grid.Save(fnameOut);
