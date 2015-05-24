@@ -23,13 +23,16 @@ class Edge {
     int k;
     int ksquare;
     int nedges;
+    
     // node
     float *x_mu_node;
     float *x_potential_node;
     float *edge_mu_node;
+    
     //edge
     float *x_mu_edge;
     float *x_potential_edge;
+    
     // lambda
     float *lambda_node;
 
